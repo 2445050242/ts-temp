@@ -1,0 +1,24 @@
+{
+  "name": "react-ts-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "dependencies": {
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.0.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "dev": "webpack --mode development",    
+    "build": "webpack --mode production"
+  },
+  "author": "jsx",
+  "license": "ISC"
+}

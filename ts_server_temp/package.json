@@ -1,0 +1,26 @@
+{
+  "name": "test-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "scripts": {
+    "ts": "tsc"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "core-js": "^2.5.7",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "typescript": "^3.0.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "open": "^0.0.5",
+    "node-sass": "^4.7.2"
+  },
+  "main": "./dist/js/main.js",
+  "author": "jsx",
+  "license": "ISC",
+  "description": ""
+}
